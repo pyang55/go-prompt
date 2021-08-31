@@ -14,6 +14,7 @@ type Render struct {
 	livePrefixCallback func() (prefix string, useLivePrefix bool)
 	breakLineCallback  func(*Document)
 	title              string
+        closeOnControlC    bool
 	row                uint16
 	col                uint16
 
